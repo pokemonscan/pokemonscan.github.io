@@ -1,15 +1,14 @@
-![logo](https://docsify.js.org/_media/icon.svg)
+![logo](/img/miao.png)
 
 # PokemonScan <small>1.0.0</small>
 
->* Choose Your workflow 
->*  Enter your goal  
->*  Have a cup of coffee 
->*  Wait For Hack
+>* Hack EveryOne
+>* Hack EveryTime
+>* Hack EveryWhere
 
 
 [GitHub](https://github.com/taropowder/pokemon.git)
-[Get Started](#quick-start)
+[Get Started](/zh-cn/快速上手/install)
 
 <!-- 背景图片  ![](_media/bg.png)  -->
 
