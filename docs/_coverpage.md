@@ -2,9 +2,7 @@
 
 # PokemonScan <small>1.0.0</small>
 
->* Hack EveryOne
->* Hack EveryTime
->* Hack EveryWhere
+>* Easy For Scan
 
 
 [GitHub](https://github.com/taropowder/pokemon.git)
