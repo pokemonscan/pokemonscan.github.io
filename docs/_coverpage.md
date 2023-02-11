@@ -2,11 +2,11 @@
 
 # PokemonScan <small>1.0.0</small>
 
->* Easy For Scan
+>* The Last Scanner On Your Computer
 
 
 [GitHub](https://github.com/taropowder/pokemon.git)
-[Get Started](/zh-cn/快速上手/install)
+[Get Started](/zh-cn/)
 
 <!-- 背景图片  ![](_media/bg.png)  -->
 

@@ -1,4 +1,6 @@
 
+* [简介](/zh-cn/README.md)
+
 * 快速上手
 
   * [安装](/zh-cn/快速上手/install)

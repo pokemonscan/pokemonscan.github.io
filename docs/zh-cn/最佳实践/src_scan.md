@@ -92,7 +92,7 @@ workflow 模板中我们配置以下几个插件
         {
           "ENScan": {
             "target": "{{.}}",
-            "type": "aqc,tyc"
+            "type": "aqc"
           }
         }
       ]
@@ -152,6 +152,14 @@ workflow 模板中我们配置以下几个插件
 
 ```
 
-然后 wrokflow 内输入你所测试的 src
+然后 wrokflow 内输入你所测试的公司名称    
+点击开始后会自动执行以下操作
 
-然后所要做的就是等待漏洞的上报以及看看URL是否有可以继续手动测试的点
+- 调用 `ENScan` 查找相关公司以及根域名，获取到 `Domain` 资产 , `ExtraInfo` 资产
+- 将刚刚的根域名带入`OneforAll`插件，创建任务，扫描相关网站，获取到 `Website` `Domain` `Host`资产
+- 对本次发现的 `Website` ，创建任务，利用 `Rad` -> `Recorder` -> `PassiveXray`  和 `Nuclei` 对资产进行扫描， 
+等待`Vul`以及`Url`上报
+
+
+喝杯咖啡☕️，然后去复测漏洞是否有效，以及观察`Url`资产中是否有可以利用的点
+
