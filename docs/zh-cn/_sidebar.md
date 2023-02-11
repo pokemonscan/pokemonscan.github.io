@@ -10,5 +10,10 @@
   * [workflow 配置](/zh-cn/配置说明/workflow_config)
   * [task 配置](/zh-cn/配置说明/task_config)
 
+* 最佳实践
+  * [SRC通用扫描流程](/zh-cn/最佳实践/src_scan)
+
+
+
 * 开发文档
   * [插件开发](/zh-cn/开发文档/plugin)
