@@ -1,6 +1,8 @@
-![logo](/img/miao.png)
+![logo](/img/pokeball.png ":size=10%")
 
-# PokemonScan <small>1.0.0</small>
+<font size='40' color='red'>Pokemon</font>
+<font size='40' color='white'>Scan</font> <small>1.0.0</small>
+
 
 >* The Last Scanner On Your Computer
 
