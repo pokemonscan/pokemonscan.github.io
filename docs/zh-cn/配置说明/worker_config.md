@@ -87,7 +87,6 @@
 
 > 当前版本需要注册的插件 
 >  - `PassiveXray`  
->  - `Fofa` 
 >  - `Recorder`
 
 这里需要注意一下注册顺序，如 `Recorder` 需要设置代理为 `PassiveXray`插件，
