@@ -10,7 +10,7 @@
 目录下存在 `Dockerfile` (若为开源项目，将开源项目设为 submodule，若开源项目存在 Dockerfile ，可以将目录直接设置为submodule)       
 然后在 `.github/workflows/build_images.yaml` 新增一个 `jobs`，能够确保自动build
 > 
-> 注：暂不接受无法在容器内允许 / 直接在 pokeball 内工作的插件 
+> 注：暂不接受无法在容器内且无法直接在pokeball内工作的插件 
 
 
 以配置方式分类

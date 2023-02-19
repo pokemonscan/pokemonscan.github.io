@@ -96,21 +96,21 @@ graph LR
 
 ![new_workspace](../img/demo_1.png)
 
-利用`ENScan`搜索相关资产，拿到根域名
+调度中心会利用`ENScan`搜索相关资产，拿到根域名
 
 ![new_workspace](../img/demo_2.png)
 
 ![new_workspace](../img/demo_3.png)
 
-对根域名使用OneForAll扫描,扫出 Website 资产
+自动对根域名使用OneForAll扫描,扫出 Website 资产
 ![new_workspace](../img/demo_4.png)
 
-利用扫出来的 Website 资产进行漏洞扫描
+带所有信息收集任务完成后，利用扫出来的 Website 资产进行漏洞扫描
 
 ![new_workspace](../img/demo_5.png)
 ![new_workspace](../img/demo_6.png)
 
-喝杯☕️，然后等待漏洞上报~
+☕️，等待漏洞上报~
 
 ## 更多
 
