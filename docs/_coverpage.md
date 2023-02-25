@@ -4,7 +4,7 @@
 <font size='40' color='white'>Scan</font> <small>1.0.0</small>
 
 
->* The Last Scanner On Your Computer
+>* Young People First Scanner
 
 
 [GitHub](https://github.com/taropowder/pokemon.git)
