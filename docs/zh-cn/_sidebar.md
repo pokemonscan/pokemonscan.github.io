@@ -5,6 +5,7 @@
 
   * [安装](/zh-cn/快速上手/install)
   * [使用](/zh-cn/快速上手/use)
+  * [更新](/zh-cn/快速上手/update)
 
 * 配置说明
   * [plugins 配置](/zh-cn/配置说明/plugins_config)
@@ -14,6 +15,7 @@
 
 * 最佳实践
   * [SRC通用扫描流程](/zh-cn/最佳实践/src_scan)
+  * [端口扫描实践](/zh-cn/最佳实践/port_scan)
 
 * 开发文档
   * [插件开发](/zh-cn/开发文档/plugin)

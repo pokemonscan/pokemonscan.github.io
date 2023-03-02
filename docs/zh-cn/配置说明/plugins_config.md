@@ -119,6 +119,83 @@
 - host
 - domain
 
+### Masscan
+
+> 端口扫描工具
+> 仓库地址： https://github.com/robertdavidgraham/masscan.git
+
+#### 完整配置
+
+```json
+{
+  "Masscan": {
+    "target": "{{.}}",
+    "ports": "60-100",
+    "command_args": ""
+  }
+}
+```
+
+
+#### 最简配置
+
+```json
+{
+  "Masscan": {
+    "target": "{{.}}",
+    "ports": "60-100"
+  }
+}
+```
+
+#### 配置说明
+
+- target: 待扫描主机的`host`
+
+#### 返回结果
+
+- `Host` 
+- `HostService`
+
+### Nmap
+
+> 端口扫描工具
+> 仓库地址： https://github.com/nmap/nmap.git
+> 建议和 `Masscan` 联合使用,参考 [端口扫描实践](/zh-cn/最佳实践/port_scan)
+
+#### 完整配置
+
+```json
+{
+  "Masscan": {
+    "target": "{{.}}",
+    "ports": "60-100",
+    "command_args": ""
+  }
+}
+```
+
+
+#### 最简配置
+
+```json
+{
+  "Masscan": {
+    "target": "{{.}}",
+    "ports": "60-100"
+  }
+}
+```
+
+#### 配置说明
+
+- target: 待扫描主机的`host`
+
+#### 返回结果
+
+- `Host`
+- `HostService`
+
 
 ### Nuclei
 
@@ -164,7 +241,7 @@
 
 ```json
 {
-  "target": "https://xxx.com",
+  "target": "https://xxx.com"
 }
 ```
 
@@ -178,6 +255,8 @@
 #### 返回结果
 
 None
+
+
 
 
 ## 注册时配置
