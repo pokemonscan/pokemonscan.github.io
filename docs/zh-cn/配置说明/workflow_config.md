@@ -114,3 +114,29 @@ example:
 ### website
 
 变量: `{{.Url}}`
+
+
+### host
+
+变量: `{{.Host}}`
+方法: `GetPorts`
+demo:
+```json
+{
+  "host": {
+    "plugins": [
+      {
+        "Nmap": {
+          "target": "{{.Host}}",
+          "ports": "{{ .GetPorts \"service='tcp'\"}}"
+        }
+      }
+    ],
+    "workflow_space": "workspace"
+  }
+}
+```
+
+### url
+
+变量: `{{.Url}}`
